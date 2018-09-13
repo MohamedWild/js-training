@@ -8,6 +8,9 @@
 
 // Your code :
 
+function id(tutu) {
+	return tutu;
+}
 //* Begin of tests
 const assert = require('assert')
 
