@@ -6,6 +6,17 @@
  *
  */
 
+ 
+function total(myArray) {
+	// body...
+	let number = myArray.length;
+	let resultat = 0
+	for (let i = 0 ; i < number; i++) {
+		resultat =  resultat + myArray[i];
+	}
+	return resultat
+}
+
 
 //* Begin of tests
 const assert = require('assert')
