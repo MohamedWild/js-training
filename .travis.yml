@@ -1,3 +1,3 @@
-script: ./tester basics math
+script: ./tester basics math get
 node_js:
   - "node"

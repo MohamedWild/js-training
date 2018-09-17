@@ -9,6 +9,14 @@
 
 // Your code :
 
+function getLength(tab) {
+	if (Array.isArray(tab) === true){
+		return tab.length;
+	} else {
+		return tab.length;
+	}
+}
+
 //* Begin of tests
 const assert = require('assert')
 

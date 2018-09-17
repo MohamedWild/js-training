@@ -8,7 +8,11 @@
  */
 
 // Your code :
-
+function getFirst(tab) {
+	for (let i = 0; i < 2; i++){
+		return tab[i];
+	}
+}
 //* Begin of tests
 const assert = require('assert')
 
